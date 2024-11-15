@@ -1,0 +1,41 @@
+section{
+    margin-top: 100px;
+    height: 100vh;
+    text-align: center;
+    .contenedor{
+        /*margin-top: 100px;*/
+        label{
+            color: #367077;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .dato, legend{
+            margin-top: 15px;
+        }
+        input{
+            width: 200px;
+        }
+        legend{
+            color: #367077;
+            
+        }
+        textarea{
+            width: 200px;
+            height: 100px;
+        }
+        button{
+            background-color: #367077;
+            border:1px solid gray;
+            border-radius: 10%;
+            a{
+                text-decoration: none;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+

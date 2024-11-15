@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/cbbd236219.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../../assets/css/contacto.css">
+   
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedorLogo">
+            <a href="../../index.html"><img src="../imagenes/logo.png"></a>
+        </div>
+
+        <nav class="navegacion">
+            <ul class="listaItems"> 
+                <li class="item"><a class="link" href="">Productos</a></li>
+                <li class="item"><a class="link" href="">Reseñas</a></li>
+                <li class="item"><a class="link" href="contacto.html">Contacto</a></li>
+                <li class="item"><a class="link" href=""><i class="fa-solid fa-cart-shopping" style="color: #000000"></i></a></li>
+           </ul>
+            
+        </nav>
+    </header>
+    <hr>
+    <section >
+        <div class="contenedor">
+    <form class="form" action="https://formsubmit.co/solecata81@gmail.com" method="post">
+      
+        
+            <legend>Datos Personales:</legend>
+        
+        <div class="dato">
+            <label for="name">Nombre: </label>
+        <input type="text" name="name" required>
+        </div>
+        <div class="dato">
+            <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" required>
+        </div>
+        <div class="dato">
+            <label for="email">Correo E: </label>
+            <input type="email" name="email" required>
+        </div>
+        <div class="dato">
+        <label for="telefono">Telefono: </label>
+        <input type="number" name="telefono" required>
+    </div>
+
+ 
+        <legend>Dejenos su consulta:</legend>
+            
+        
+        
+        <div class="dato">
+            <label for="consulta">Consulta: </label>
+            <textarea name="consulta" id="consulta"></textarea>
+        </div>
+   
+        <button type="submit" >Enviar</button>
+        <input type="hidden" name="_next" value="https://sagunti.github.io/Tienda/">
+        <input type="hidden" name="_captcha" value="false">
+        <button type="reset">Borrar</button>
+        <button type="button"><a href="../../index.html">Volver</a></button>
+    </form>
+    </div>
+</section>
+</body>
+
+</html>
