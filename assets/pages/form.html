@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/estilos.css">
+    <link rel="stylesheet" href="./assets/estilos-validar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+        
+    <div class="contacto">
+        <div class="logo">
+            <img src="./assets/img/logo_Mesa de trabajo 1.svg" alt="">
+        </div>
+        <div>
+            <form class="form" action="https://formsubmit.co/sales@stimaquinas.com" method="post">
+            <div class="titulo-contacto">
+                <h2>Contacto</h2>
+                <br>
+                <p>Preencha este formulário para continuar</p>
+            </div>
+                <div class="input-container">
+                    <input  name="nombre" type="text" id="nombreyapellido" class="input" required data-tipo="nombre" placeholder="  Nombres y Apellidos" maxlength="50">
+                    <span class="input-message-error">Este campo não é válido</span>
+                </div>
+
+                <div class="input-container">
+                    <input name="email"type="email" id="correo"class="input"required data-tipo="email" 
+                    placeholder="  email@dominio.com">
+                    <span class="input-message-error">Este campo não é válido</span>
+                </div>
+
+                <div class="input-container">
+                    <input  name="Empresa" type="text" id="asunto"class="input"required data-tipo="asunto"
+                    placeholder="  Empresa" maxlength="50">
+                    <span class="input-message-error">Este campo não é válido</span>
+                </div>
+
+                <div class="textarea-container">   
+                    <textarea name="mensaje" id="mensaje" class="textarea" placeholder=" Mensagem" data-tipo="elmensaje" maxlength="300" required></textarea>
+                    <span class="textarea-message-error">Este campo não é válido</span>
+                </div>
+
+                    <input type="submit" value="Enviar Mensaje"class="enviar">
+                    <input type="hidden" name="_next" value="https://stimaquinas.com/comercial/imagenes/catalogo_sti_01.pdf">
+                    <input type="hidden" name="_captcha" value="false">
+        
+        </form>
+        </div>
+    </div>
+    <script src="/js/app.js" type="module"></script>  
+</body>
+</html>
